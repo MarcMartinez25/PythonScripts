@@ -20,8 +20,8 @@ def workbook_readwrite(file_name, splitter, new_file_name):
     worksheet = workbook.add_worksheet()
     
     for items in li:
-    worksheet.write(r,0,items)
-    r += 1
+        worksheet.write(r,0,items)
+        r += 1
     
     workbook.close()
 
